@@ -1,0 +1,62 @@
+[
+  {
+    "title": "GitGraph",
+    "description": "Functional Dependency Visualiser in a DAG for python files.",
+    "image": "https://i.ibb.co/CzdQkSH/Screencast-from-20-02-24-12-46-21-AM-IST.gif",
+    "image2": "https://i.ibb.co/CzdQkSH/Screencast-from-20-02-24-12-46-21-AM-IST.gif",
+    "body": "The GitGraph is a tool that visualizes the functional dependencies between python files in a git repository. It generates a Directed Acyclic Graph (DAG) that represents the dependencies between the files. \nThe tool uses the tree-sitter module in Javascript to parse the files and extract the dependencies by creating AST (Abstract Syntax Tree). The graph is then visualized using the d3 library in ReactJS.\n The GitGraph is a powerful tool that can help you to understand the structure of your codebase and identify potential issues. \nIt can be used to analyze the dependencies between files, detect circular dependencies, and identify code smells. The tool is designed to be easy to use and flexible, allowing you to customize the visualization and filter the results based on your needs.\n The project is still under development.",
+    "technologies": ["JavaScript"],
+    "github": "https://github.com/shreshthgoyal/gitgraph",
+    "deployed": "",
+    "bgcolor": "var(--hl2-color)",
+    "id": "1"
+  },
+  {
+    "title": "naturalshell",
+    "description": "AI-powered bridge from natural language to shell commands in CLI.",
+    "image": "https://i.ibb.co/CzdQkSH/Screencast-from-20-02-24-12-46-21-AM-IST.gif",
+    "image2": "https://i.ibb.co/CzdQkSH/Screencast-from-20-02-24-12-46-21-AM-IST.gif",
+    "body": "NaturalShell is a Node.js package that simplifies the command line, allowing you to use natural language to generate and understand shell commands.\n It is build on top of Google Gemini. It generates a command for the user based on user needs, it also provides explaination for the command if the user wants to know what the command does, moreover it provides the user to edit the command once its generated and at the end it also provides an option to the user to run the command.\nNaturalShell is a powerful tool that can help you to generate shell commands without having to remember the exact syntax. It can also help you to understand what a command does, and to edit it if necessary. It is a great tool for both beginners and experts who want to work more efficiently in the command line.\n This was my first project built on top of a LLM model and that too a CLI tool.",
+    "technologies": ["JavaScript"],
+    "github": "https://github.com/shreshthgoyal/naturalshell",
+    "deployed": "https://www.npmjs.com/package/naturalshell",
+    "bgcolor": "var(--hl2-color)",
+    "id": "2"
+  },
+  {
+    "title": "Eth-QF",
+    "description": "Quadratic Crowdfunding Platform, built on Ethereum blockchain.",
+    "image": "https://lh3.googleusercontent.com/pw/AM-JKLXEmIbJBJ9tbeph97J8U0DOEbDMs9B3v7xeXaBNFoGNKjFMRhlES6t8OJ4RGP9lyljZN_782h3HaWuZOoCWWIRYDo-kLQPsKw4rx5Felg52XcoJfjLmRGiIrlYwbNXxrONFV0t2sv5lTec4V--7SKoR=w1686-h948-no?authuser=0",
+    "image2": "https://lh3.googleusercontent.com/pw/AM-JKLXEmIbJBJ9tbeph97J8U0DOEbDMs9B3v7xeXaBNFoGNKjFMRhlES6t8OJ4RGP9lyljZN_782h3HaWuZOoCWWIRYDo-kLQPsKw4rx5Felg52XcoJfjLmRGiIrlYwbNXxrONFV0t2sv5lTec4V--7SKoR=w1686-h948-no?authuser=0",
+    "technologies": ["JavaScript", "Solidity", "HTML", "CSS"],
+    "body": "Eth QF is a decentralised platform that enables crowdfunding for projects on Ethereum ecosystem. Interestingly this project is an implementation of a Proof of Concept research paper which provides the idea of Quadratic Funding built over existent Quadratic Voting. This is one of the first working implementations of the idea.\n Eth QF provides projects funding through the concept of Quadratic Funding. We at Eth QF, fund the community for the community.\n This project was focused to help the projects that the majority of the people need, and to increase the fairness in Crowdfunding Flow. Quadratic Funding and CLR matching algorithms are applied to optimise decentralized financing on this platform. reCAPTCHA V2 by Google and OTP Based Authentication is added to prevent Sybil Attacks.",
+    "github": "https://github.com/shreshthgoyal/Eth-QF",
+    "deployed": "",
+    "bgcolor": "var(--hl-color)",
+    "id": "3"
+  },
+  {
+    "title": "Lend3.0",
+    "description": "Defi dapp build to support peer to peer lending.",
+    "image": "https://i.ibb.co/z45CJfm/reva.png",
+    "image2": "https://i.ibb.co/z45CJfm/reva.png",
+    "technologies": ["Solidity", "JavaScript", "HTML", "CSS"],
+    "body": "Small business owners often get exploited by moneylenders when borrowing money. High and unfair rates of interest, middlemen, and a process where the entire power lies in the hands of the lender leaves the borrowers vulnerable to exploitation. The entire process is very slow, and requires a lot of manual work.\n We propose a solution to this problem through our DApp Decentralised Financial Peer to Peer Lender based on blockchain technology built on ethereum.\nBorrowers can create their loan proposal with the amount they want, their favourable repayment due date and CID of their mortgage uploaded on IPFS. As of now we are using a decentralised public IPFS gateway. Lender's can verify the borrower's data and send their proposal with their favourable interest rate. Borrower's can choose multiple lenders of their interest. Borrower can repay the loan anytime they want before the due date and amortized loan will be transacted. After the repayment date has passed, borrower cannot repay the loan and their mortgage will be revoked and auctioned off.\n This project was developed to ease the process of peer-to-peer lending and prevent the exploitation of small businesses.",
+    "github": "https://github.com/shreshthgoyal/Lend3.0",
+    "deployed": "https://vimeo.com/645497797",
+    "bgcolor": "#f85781",
+    "id": "4"
+  },
+  {
+    "title": "PixArt",
+    "description": "GUI application for Pixel Art in Go",
+    "image": "https://i.ibb.co/frfKS3N/pixart.jpg",
+    "image2": "https://i.ibb.co/frfKS3N/pixart.jpg",
+    "technologies": ["Go"],
+    "body": "PixArt is a Golang-based desktop GUI application that enables users to create and save pixelated art. It utilizes the Fyne toolkit and offers users the ability to generate, save, and modify PNG-format images. Additionally, the application features swatches and a Colorpicker as supplementary tools. Currently, only pixel brushtype is supported, but the underlying architecture can be extended to support other brush types.\n This is a simple yet powerful tool for creating pixel art, and it can be used for a variety of purposes, including art, graphic design, and more. The application is designed to be user-friendly and intuitive, making it accessible to users of all skill levels. PixArt is a great tool for anyone looking to create pixel art quickly and easily.\n This was my first application built using Golang and Fyne toolkit.",
+    "github": "https://github.com/shreshthgoyal/PixArt",
+    "deployed": "",
+    "bgcolor": "var(--hl2-color)",
+    "id": "5"
+  }
+]
